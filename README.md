@@ -14,18 +14,6 @@ This smart contract is designed to store a single integer value. It includes the
 - **assert()**: Ensures that the new value being stored is different from the previous one, maintaining consistency.
 - **revert()**: Reverts the transaction if the stored value is zero when attempting to withdraw, providing safety checks.
 
-## Requirements
-
-The contract fulfills the following requirements:
-
-- **Public Variables**: 
-  - `storedValue`: Holds the value stored by the contract.
-  - `owner`: Stores the address of the contract owner, who is the only one allowed to withdraw the stored value.
-  
-- **Functions**:
-  - `storeValue`: Takes an integer value and updates `storedValue` if it passes the validation checks.
-  - `withdrawValue`: Allows the contract owner to withdraw the stored value, resetting it to zero.
-
 ## Getting Started
 
 ### Prerequisites
