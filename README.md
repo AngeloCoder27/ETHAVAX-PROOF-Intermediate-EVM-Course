@@ -1,4 +1,4 @@
-# SimpleStorage Smart Contract
+# Storage Smart Contract
 
 This Solidity program demonstrates the creation of a simple storage contract on the Ethereum blockchain. The contract allows storing and withdrawing a value while implementing error handling with `require()`, `assert()`, and `revert()` statements.
 
